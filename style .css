@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Itim&family=Lobster+Two&family=Montez&family=Work+Sans:wght@300&display=swap');
+*{
+box-sizing: border-box;
+}
+/* navbar div styling begins */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   margin: 0 auto;
+    background-color: white;
+    position:fixed;
+}
+.navbar a:link{    
+  color: gray; 
+  text-decoration: none; 
+  justify-content: space-between;
+}
+
+ .navbar h1 {
+    color: #FC6C85;
+    padding-left: 300px;
+}
+nav{
+    display: flex;
+    width: 65%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding: 18px;
+}
+/* navbar div styling ends */
+/* making div styling begins */
+.intro {
+ width : 65% ;
+ margin: auto;
+ text-align: center;
+ padding-top: 150px;
+}
+.intro h1 {
+    color:#FC6C85;
+    font-size: 40px;
+    font-weight: 500px;
+}
+  /* paragraphs div styling begins */
+.paragraphs {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 50px;
+    color: gray;
+    gap: 50px;
+}
+   /* paragraphs styling div ends */
+/* making div styling ends */
+/* carts div styling begins */
+.carts {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     gap: 25px;
+   text-align: center;
+   padding-top: 150px;
+ align-items: center;
+}
+.cart h1 {
+    color: white;
+    font-weight:300;
+    font-size: 20;
+}
+.cart p {
+    color: white;
+    font-size: 23px;
+    font-weight: 200;
+}
+.cart select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18;
+    color: white;
+    align-items: baseline;
+}
+.cart option{
+    color: black;
+}
+.cart1 {
+    width: 33%;
+    height: 350 px;
+    border-radius: 10 px;
+    padding: 15 px;
+    background-color:#FC6C85;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.cart2 {
+    width: 33%;
+    height: 350 px;
+    border-radius: 10 px;
+    padding: 15 px;
+    background-color:#F88379;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.cart3 {
+    width: 33%;
+    height: 350px;
+    border-radius: 10 px;
+    background-color: #FC8EAC;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 20px;
+}
+/* carts div styling ends */
+/* top div styling begins */
+.top{
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+}
+.top h1  {
+    color:#fc6c85 ;
+    font-size: 40px;
+    font-weight: 500px;
+}
+h4 {
+    color: #ff07ff;
+}
+
+.k {
+    width: 7.5rem;
+    height: 1.25rem;
+
+}
+.Tops {
+    display: flex;
+    flex-wrap: wrap;
+   gap: 4rem;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-size: 20px;
+}
+/* top div styling ends */
+/* all div styling begins */
+.all{
+    background-color: #f8dbb8;
+    height: 650px;
+    position: relative;
+}
+.smallall {
+    display: flex;
+    gap: 5%;
+}
+.all h1{
+    color: #fc4c4e ;
+  font-weight: 700px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 300;
+}
+.text {
+    width: 45%;
+   padding: 50px; 
+   text-align: center;
+}
+.text p {
+    font-size: 15px;
+}
+.text img{
+    position: absolute;
+    margin: 100px;
+    right: 700px;
+    bottom: -100px;
+}
+.card h1{
+font-size: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    height: 50%;
+    justify-content: center;
+    text-align: left;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+iframe{
+    height: 45%;
+    width: 45%;
+}
+/* all div styling ends */
+/*contact div styling begins */
+   .contact {
+    padding: 100px;
+    width: 45%;
+    margin: auto ;
+}
+.contact h1{
+    color: #FC8EAC;
+    font-weight: 500px;
+    text-align: center;
+    font-size: 50px;
+}
+.contact label{
+ color: #fc4c4e;
+ font-weight:500;
+}
+button {
+    background-color:#fc4c4e;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:#fc4c4e ;
+}
+.contact input {
+    padding-left: 100px;
+}
+/*contact div styling ends*/
+/*footer styling begins*/
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+/*footer styling ends*/
+
+

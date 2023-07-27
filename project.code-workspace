@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../css checkpoint"
+		},
+		{
+			"path": "../css layout checkpoint"
+		},
+		{
+			"path": "../git checkpoint"
+		},
+		{
+			"path": "../javascript checkpoint"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}
